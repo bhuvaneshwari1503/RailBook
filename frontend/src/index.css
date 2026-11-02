@@ -1,0 +1,47 @@
+
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.tick-circle {
+  stroke-dasharray: 151;
+  stroke-dashoffset: 151;
+  animation: draw 0.6s ease-out forwards;
+}
+
+.tick-check {
+  stroke-dasharray: 40;
+  stroke-dashoffset: 40;
+  animation: draw 0.4s 0.5s ease-out forwards;
+}
+
+@media print {
+  @page {
+    size: A4 landscape;
+    margin: 8mm;
+  }
+
+  body {
+    background: white !important;
+  }
+
+  nav,
+  .print\:hidden {
+    display: none !important;
+  }
+
+  #ticket {
+    width: 100%;
+    box-shadow: none;
+    border: 1px solid #ddd;
+    break-inside: avoid;
+  }
+}
