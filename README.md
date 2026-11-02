@@ -92,7 +92,7 @@ docker compose up --build
 | Service | URL |
 |---|---|
 | **Frontend** | http://localhost:3000 |
-| **Backend** | http://localhost:8080 |
+
 
 *Configure the required environment variables before starting the application.*
 
