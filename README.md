@@ -1,82 +1,47 @@
-🚆 RailBook – Railway Ticket Booking System
+# 🚆 RailBook – Railway Ticket Booking System
 
-A full-stack railway ticket booking platform where users can register, log in, search for trains, check available classes, select seats, enter passenger details, and manage their bookings. Built using React, Spring Boot, Java, and PostgreSQL.
+A **Full-Stack Railway Ticket Booking Application** built using React, Spring Boot, Java 21, and PostgreSQL.
 
-🌐 Live Demo
-👉 [Click here to visit RailBook](https://railbook-frontend-five.vercel.app/)
+RailBook allows users to register, log in, search for trains, select travel classes and seats, enter passenger details, and manage railway reservations through a user-friendly web application.
 
-⚙️ Features
+---
 
-👤 User Authentication – User registration and login with JWT authentication.
+## 🌐 Live Demo
 
-🚉 Train Search – Search for trains between source and destination stations.
+🚀 **[Click Here to Visit RailBook](https://railbook-frontend-five.vercel.app/)**
 
-🚆 Train Availability – View available trains and travel classes.
+---
 
-💺 Seat Selection – Select seats during the booking process.
+## ✨ Features
 
-🧍 Passenger Details – Enter passenger information for reservations.
+- 👤 **User Authentication** – Registration and login with JWT authentication.
+- 🚉 **Train Search** – Search trains between source and destination stations.
+- 🚆 **Train Availability** – View available trains and travel classes.
+- 💺 **Seat Selection** – Select seats during the booking process.
+- 🧍 **Passenger Details** – Enter passenger information for reservations.
+- ⏳ **Reservation Countdown** – Time-based reservation hold during booking.
+- 🎫 **Booking Management** – View and manage reservations.
+- 🔐 **Security** – Spring Security and JWT-based API protection.
+- 📱 **Responsive Interface** – User-friendly interface across supported screen sizes.
 
-⏳ Reservation Countdown – Time-based reservation hold during the booking process.
+---
 
-🎫 Booking Management – Manage bookings and view reservation details.
+## 🛠️ Tech Stack
 
-🔎 PNR Management – Track booking details using PNR, if enabled in the application.
+| Category | Technologies |
+|---|---|
+| **Frontend** | React, JavaScript, React Hooks, HTML5, CSS3, Vite |
+| **Backend** | Java 21, Spring Boot, Spring Security, Maven, REST APIs |
+| **Authentication** | JWT |
+| **Database** | PostgreSQL, Neon |
+| **Deployment** | Vercel, Render |
+| **Tools** | Docker, Git, GitHub |
 
-🛡️ Role-Based Security – Secure API access using Spring Security and JWT.
+---
 
-📱 Responsive Interface – Access the application across supported screen sizes.
+## 🏗️ Project Structure
 
-🛠️ Tech Stack
-
-Frontend
-
-React
-
-JavaScript
-
-React Hooks
-
-HTML5
-
-CSS3
-
-Vite
-
-Backend
-
-Java 21
-
-Spring Boot
-
-Spring Security
-
-JWT Authentication
-
-Maven
-
-REST APIs
-
-Database
-
-PostgreSQL
-
-Neon PostgreSQL
-
-Deployment & Tools
-
-Vercel – Frontend Hosting
-
-Render – Backend Hosting
-
-Neon – Cloud Database
-
-Docker – Containerization
-
-Git & GitHub – Version Control
-
-🏗️ Project Structure
-
+```text
 RailBook/
 │
 ├── frontend/
@@ -94,59 +59,68 @@ RailBook/
 ├── docker-compose.yml
 │
 └── README.md
+```
 
-🚀 Run Locally
+---
 
-Prerequisites
+## 🚀 Getting Started
 
-Java 21
+### Prerequisites
 
-Node.js and npm
+Make sure you have the following installed:
 
-Maven
+- Java 21
+- Node.js and npm
+- Maven
+- Docker Desktop
 
-Docker Desktop
+### 1. Clone the Repository
 
-1. Clone the Repository
-
+```bash
 git clone https://github.com/bhuvaneshwari1503/RailBook.git
 cd RailBook
+```
 
-2. Run Using Docker
+### 2. Run the Application Using Docker
 
+```bash
 docker compose up --build
+```
 
-3. Open the Application
+### 3. Access the Application
 
-Frontend: http://localhost:3000
+| Service | URL |
+|---|---|
+| **Frontend** | http://localhost:3000 |
+| **Backend** | http://localhost:8080 |
 
-Configure the required environment variables before running the application.
+*Configure the required environment variables before starting the application.*
 
-☁️ Deployment
+---
 
-Component
+## ☁️ Deployment
 
-Platform
+| Component | Hosting Platform |
+|---|---|
+| Frontend | Vercel |
+| Backend | Render |
+| Database | Neon PostgreSQL |
 
-Frontend
+---
 
-Vercel
+## 👩‍💻 Developer
 
-Backend
+**Bhuvaneshwari**
 
-Render
+🐙 **GitHub:** [bhuvaneshwari1503](https://github.com/bhuvaneshwari1503)
 
-Database
+---
 
-Neon PostgreSQL
+<div align="center">
 
-👩‍💻 Developed By
+### ⭐ Thank You for Visiting RailBook!
 
-Bhuvaneshwari
+*Built to demonstrate full-stack development, REST API integration, database management, authentication, and cloud deployment.*
 
-GitHub: bhuvaneshwari1503
-
-⭐ If you find this project interesting, feel free to explore the repository!
-
-RailBook is a full-stack portfolio project developed to demonstrate frontend development, backend API development, database integration, authentication, and cloud deployment.
+</div>
 
